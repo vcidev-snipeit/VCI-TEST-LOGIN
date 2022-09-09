@@ -9,7 +9,7 @@
   <div class="main_div">
     <form action="#">
     <div class="input_box">
-       <input type="text" placeholder="Usernamessssss" required>
+       <input type="text" placeholder="Username" required>
        <div class="icon"><i class="fas fa-user"></i></div>
      </div>
      <div class="input_box">
