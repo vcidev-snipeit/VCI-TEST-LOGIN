@@ -8,12 +8,14 @@ html,body{
   display: grid;
   height: 100%;
   width: 100%; 
-  background-image: url("background.jpg");
+  background-image: url("backgroundg.gif");
   background-image: no-repeat;
+  background-size: 1366px 768px;
+  
 }
 .main_div{
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 65%;
   width: 400px;
   height: 240px;
@@ -21,6 +23,7 @@ html,body{
   padding: 25px;
   border-radius: 20px;
   box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.4);
+  opacity: 0.850;
 }
 
 form {
@@ -58,15 +61,12 @@ form .input_box{
   background: #529b9b;
   color: #fff;
   border: none;
-  font-size: 20px;
-  font-weight: 500;
+  font-family: 'Roboto',sans-serif;
+  font-size: 16px;
+  font-weight: 750;
   cursor: pointer;
   transition: all 0.3s linear;
 }
 .button input:hover{
-  background: #008080;
-}
-form .sign_up{
-  text-align: center;
-  margin-top: 25px;
+background: #008080;
 }
