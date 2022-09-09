@@ -17,10 +17,9 @@
        <div class="icon"><i class="fas fa-lock"></i></div>
     </div>
      <div class="input_box button">
-       <input type="submit" value="Login">
+       <input type="submit" value="LOGIN">
     </div>
     </form>
   </div>
-  
 </body>
 </html>
