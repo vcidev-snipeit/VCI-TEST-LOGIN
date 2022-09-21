@@ -7,8 +7,10 @@
 <body>
   <div id='loginpage' class='loginpage'>
     <div id='imgcontainer' class='imgcontainer'> 
-    </div>
-    <div id='header' class='header'> 
+      </div>
+    <div id='logintab' class='logintab'>
+      <div id='header' class='header'> 
+        </div>
     </div>
   </div>
 </body>
