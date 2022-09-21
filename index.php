@@ -5,13 +5,11 @@
     <link rel="stylesheet" href="style.css">
   </head>
 <body>
-
   <div id='loginpage' class='loginpage'>
     <div id='imgcontainer' class='imgcontainer'> 
-
+    </div>
     <div id='logintab' class='logintab'>
       <div id='header' class='header'> 
-        <h1>Git Test</h1>
       </div>
     </div>
   </div>
