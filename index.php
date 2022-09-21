@@ -3,23 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
   </head>
 <body>
-  <div class="main_div">
-    <form action="#">
-    <div class="input_box">
-       <input type="text" placeholder="User" required>
-       <div class="icon"><i class="fas fa-user"></i></div>
-     </div>
-     <div class="input_box">
-       <input type="password" placeholder="Password" required>
-       <div class="icon"><i class="fas fa-lock"></i></div>
+  <div id='loginpage' class='loginpage'>
+    <div id='imgcontainer' class='imgcontainer'> 
     </div>
-     <div class="input_box button">
-       <input type="submit" value="LOGIN">
+    <div id='header' class='header'> 
     </div>
-    </form>
   </div>
 </body>
 </html>
+
+
