@@ -38,10 +38,10 @@
 
 
 .container {
-  width: 43%;
+  width: 35%;
   height: 70px;
   top: 125px;
-  left: 45px;
+  left: 100px;
   background-color: none;
   position: fixed;
   border-bottom: 5px solid #00e0c6;
