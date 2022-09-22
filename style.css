@@ -28,6 +28,15 @@
   position: fixed;
 }
 
+.header-img {
+  width: 200px;
+  height: 100px;
+  margin-left: 175px;
+  background: url('gwslogo.png');
+  background-size: cover;
+}
+
+
 .container {
   width: 33%;
   height: 70px;
@@ -70,12 +79,14 @@ h2 {
 form {
   margin-top: 10px;
 }
+
 form .input_box{
   height: 50px;
   width: 100%;
   position: relative;
   margin-top: 10px;
 }
+
 .input_box input{
   height: 50px;
   width: 80%;
@@ -87,12 +98,21 @@ form .input_box{
   transition: all 0.3s ease;
   margin-left: 5%;
 }
-.input_box input:focus{
-  border-color: #529b9b;
+
+input::placeholder {
+  color: #808080;
+  font-size: 1.2em;
+  font-family:'Inter', sans-serif;
+  font-size: 16px;
 }
+
+.input_box input:focus{
+  border-color: #009393;
+}
+
 .input_box .icon1{
   position: absolute;
-  top: 55%;
+  top: 53%;
   left: 9%;
   transform: translateY(-50%);
   color: grey;
@@ -100,7 +120,7 @@ form .input_box{
 
 .input_box .icon2{
   position: absolute;
-  top: 115%;
+  top: 113%;
   left: 9%;
   transform: translateY(-50%);
   color: grey;
@@ -123,6 +143,7 @@ form .input_box{
   cursor: pointer;
   transition: all 0.3s linear;
 }
+
 .button input:hover{
 background: #008686;
 }

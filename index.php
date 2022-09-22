@@ -13,6 +13,8 @@
     <div id='imgcontainer' class='imgcontainer'> 
     </div>
     <div id='header' class='header'> 
+    <div class="header-img"></div>
+    </div>
     </div>
     <div class='container'>
       <h1> Log In </h1>
@@ -21,17 +23,17 @@
       <h2> Username </h2>
       <form action="#">
       <div class="input_box">
-       <input type="text" placeholder="yourusername@vci.com" required>
+       <input type="text" placeholder="username@vci.com" required>
        <div class="icon1"><i class="fas fa-user"></i></div>
      </div>
      <div class="input_box">
        <h3> Password </h3>
-       <input type="password" placeholder="Enter your password" required>
+       <input type="password" placeholder="Input password" required>
        <div class="icon2"><i class="fas fa-lock"></i></div>
        <div class="fpassword">
        <a href="#" style="text-decoration:none;" target="_blank">Forgot Password?</a>
       </div>
-    </div>
+      </div>
      <div class="input_box button">
        <input type="submit" value="Login">
     </div>
