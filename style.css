@@ -49,11 +49,119 @@ h1 {
 
 .login {
   width: 35%;
-  height: 400px;
+  height: 375px;
   top: 250px;
-  left: 34.15px;
+  left: 34.05px;
   background-color: #FAFAFA;
   position: fixed;
   border-radius: 5px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10), 0px 4px 4px 0px rgba(0, 0, 0, 0.10), 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+h2 {
+  margin-left: 30px;
+  margin-top: 25px;
+  font-family: 'Inter', sans-serif;
+  color: #121212;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+form {
+  margin-top: 10px;
+}
+form .input_box{
+  height: 50px;
+  width: 100%;
+  position: relative;
+  margin-top: 10px;
+}
+.input_box input{
+  height: 50px;
+  width: 80%;
+  outline: none;
+  border: 1px solid #bebebe;
+  border-radius: 5px;
+  padding-left: 45px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  margin-left: 5%;
+}
+.input_box input:focus{
+  border-color: #529b9b;
+}
+.input_box .icon1{
+  position: absolute;
+  top: 55%;
+  left: 9%;
+  transform: translateY(-50%);
+  color: grey;
+}
+
+.input_box .icon2{
+  position: absolute;
+  top: 115%;
+  left: 9%;
+  transform: translateY(-50%);
+  color: grey;
+}
+
+.button input{
+  margin-top: 110px;
+  margin-left: 5%;
+  width: 430px;
+  height: 50px;
+  padding-left: 0;
+  background: #009393;
+  color: #ffffff;
+  border-radius: 5px;;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 750;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.button input:hover{
+background: #008686;
+}
+
+h3 {
+  margin-left: 30px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+  color: #121212;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.fpassword {
+  margin-left: 310px;
+  margin-top: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0px;
+  text-decoration:none
+}
+
+a:link {
+  color: #00E0C6;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #009393;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a {     
+  display: inline-block;     
+  position: fixed;    
+  z-index: 1;     
+  padding: 1em;     
+  margin: -1em; 
 }
