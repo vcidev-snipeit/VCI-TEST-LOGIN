@@ -12,7 +12,7 @@
 }
 
 .imgcontainer {
-  width: 60%;
+  width: 50%;
   height: 100%;
   right: 0%;
   background-color:#EAEAEA;
@@ -20,7 +20,7 @@
 }
 
 .header {
-  width: 40%;
+  width: 50%;
   height: 100px;
   left: 0%;
   background-color:#ffffff;
@@ -31,14 +31,14 @@
 .header-img {
   width: 200px;
   height: 100px;
-  margin-left: 175px;
+  margin-left: 30%;
   background: url('gwslogo.png');
   background-size: cover;
 }
 
 
 .container {
-  width: 33%;
+  width: 43%;
   height: 70px;
   top: 125px;
   left: 45px;
@@ -57,7 +57,7 @@ h1 {
 }
 
 .login {
-  width: 35%;
+  width: 45%;
   height: 375px;
   top: 250px;
   left: 34.05px;
@@ -89,14 +89,14 @@ form .input_box{
 
 .input_box input{
   height: 50px;
-  width: 80%;
+  width: 87%;
   outline: none;
   border: 1px solid #bebebe;
   border-radius: 5px;
   padding-left: 45px;
   font-size: 16px;
   transition: all 0.3s ease;
-  margin-left: 5%;
+  margin-left: 2.5%;
 }
 
 input::placeholder {
@@ -113,7 +113,7 @@ input::placeholder {
 .input_box .icon1{
   position: absolute;
   top: 53%;
-  left: 9%;
+  left: 6%;
   transform: translateY(-50%);
   color: grey;
 }
@@ -121,15 +121,15 @@ input::placeholder {
 .input_box .icon2{
   position: absolute;
   top: 113%;
-  left: 9%;
+  left: 6%;
   transform: translateY(-50%);
   color: grey;
 }
 
 .button input{
   margin-top: 110px;
-  margin-left: 5%;
-  width: 430px;
+  margin-left: 2.5%;
+  width: 95%;
   height: 50px;
   padding-left: 0;
   background: #009393;
@@ -159,7 +159,7 @@ h3 {
 }
 
 .fpassword {
-  margin-left: 310px;
+  margin-left: 450px;
   margin-top: 10px;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
