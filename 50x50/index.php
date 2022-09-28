@@ -10,8 +10,7 @@
   </head>
   
 <body>
-
-  <div id='imgcontainer' class='imgcontainer'> 
+   <div id='imgcontainer' class='imgcontainer'> 
     </div>
     <div id='header' class='header'> 
     <div class="header-img"></div>
@@ -21,12 +20,13 @@
       <h1> Log In </h1>
     </div> 
     <div class='login'>
-      <h2> Username </h2>
-      <form action="#">
-      <div class="input_box">
-       <input type="text" placeholder="username@vci.com" required>
-       <div class="icon1"><i class="fas fa-user"></i></div>
-     </div>
+        <h2> Username </h2>
+        <form action="#">
+          <div class="input_box">
+          <input type="text" placeholder="username@vci.com" required> </input>
+          <div class="icon1"><i class="fas fa-user"></i>
+        </div>
+   </div>
      <div class="input_box">
        <h3> Password </h3>
        <input type="password" placeholder="Input password" required>
