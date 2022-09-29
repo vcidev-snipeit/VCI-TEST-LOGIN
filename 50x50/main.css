@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.firstpage {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    background-color: #f0f0f0;
+    position: fixed;
+}
+
+.heading {
+    overflow: hidden;
+    height: 75px;
+    background-color: #FFFFFF;
+    position: fixed; 
+    top: 0;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10),
+    0px 2px 4px 0px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.10);width: 100%;
+}
+  
+.header-img {
+    height: 60px;
+    width: 120px;
+    margin-left: 80px;
+    margin-top: -65px;
+    background-image: url('gwslogo.png');
+    background-size: 119px 60px;
+    background-repeat: no-repeat;
+}
+
+.sbtn {
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    background-size: 75px 75px;
+    border: none;
+    outline: none;
+    color: #808080;
+    cursor: pointer;
+    margin-left: 0px;
+    top: 0;
+}
+
+.sidebar {
+    width: 75px;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.main-modules {
+    background-image: url('mainmicon.png');
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 50px;
+    top: 85px;
+    left: 20px;
+    position: absolute;
+}
+
+
+.mmbtn {
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    background-size: 75px 75px;
+    border: none;
+    outline: none;
+    color: #808080;
+    cursor: pointer;
+    top: 0;
+}
+
+
+
+  
